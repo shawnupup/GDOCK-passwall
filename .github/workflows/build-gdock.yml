@@ -79,7 +79,7 @@ jobs:
 
     - name: Build
       run: |
-        cd lede
+        cd lede 
         echo -e "$(nproc) thread build."
         make -j$(nproc) V=s
 
